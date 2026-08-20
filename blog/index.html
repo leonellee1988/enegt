@@ -1,1 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog | E+N · Marketing + Business Intelligence</title>
+<meta name="description" content="Artículos de E+N sobre marketing y Business Intelligence para pymes en Guatemala: estrategia, datos y decisiones medibles.">
+<link rel="canonical" href="https://www.enegt.com/blog/">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
 
+<meta property="og:title" content="Blog | E+N · Marketing + Business Intelligence">
+<meta property="og:description" content="Artículos de E+N sobre marketing y Business Intelligence para pymes en Guatemala.">
+<meta property="og:image" content="https://www.enegt.com/og-image.png">
+<meta property="og:url" content="https://www.enegt.com/blog/">
+<meta property="og:type" content="website">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  "name": "Blog E+N",
+  "description": "Artículos de E+N sobre marketing y Business Intelligence para pymes en Guatemala.",
+  "url": "https://www.enegt.com/blog/",
+  "publisher": { "@type": "Organization", "name": "E+N" },
+  "blogPost": [
+    {
+      "@type": "BlogPosting",
+      "headline": "Marketing sin datos, datos sin marketing: por qué las pymes guatemaltecas necesitan ambos",
+      "url": "https://www.enegt.com/blog/marketing-y-datos-para-pymes-guatemala/",
+      "datePublished": "2026-08-20"
+    }
+  ]
+}
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S5D4MQP2BJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-S5D4MQP2BJ');
+</script>
+
+<style>
+  :root{
+    --navy:#14213D; --navy-deep:#0B1526; --navy-card:#1B2C4F; --navy-card-hi:#233865;
+    --terra:#B5451B; --terra-bright:#E0642F; --gold:#C9954A; --gold-bright:#E4B36C;
+    --cream:#FDFAF7; --line:rgba(253,250,247,0.10); --line-soft:rgba(253,250,247,0.06); --muted:#9AA5BF;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{font-family:'Inter',Arial,sans-serif; background:var(--navy-deep); color:var(--cream); line-height:1.65;}
+  h1,h2,h3{font-family:'Space Grotesk',Arial,sans-serif; font-weight:700; color:var(--cream); line-height:1.2;}
+  a{color:inherit; text-decoration:none;}
+  .wrap{max-width:1100px; margin:0 auto; padding:0 32px;}
+
+  header{position:sticky; top:0; z-index:20; background:rgba(11,21,38,0.86); backdrop-filter:blur(10px); border-bottom:1px solid var(--line-soft);}
+  header .wrap{display:flex; align-items:center; justify-content:space-between; height:78px;}
+  .brand-mark{display:flex; align-items:center; gap:10px;}
+  .brand-mark svg{height:30px; width:auto;}
+  .brand-mark span{font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:19px; color:var(--cream); letter-spacing:0.5px;}
+  .nav-links{display:flex; align-items:center; gap:28px;}
+  .nav-links a.navlink{font-family:'Space Grotesk',sans-serif; font-size:14.5px; color:var(--muted);}
+  .nav-links a.navlink:hover{color:var(--cream);}
+  .nav-links a.navlink.active{color:var(--gold-bright);}
+  .btn{
+    display:inline-flex; align-items:center; gap:8px;
+    background:linear-gradient(135deg, var(--terra-bright), var(--terra));
+    color:var(--cream); font-family:'Space Grotesk',sans-serif; font-weight:500; font-size:15px;
+    padding:12px 26px; border-radius:4px; border:none;
+    box-shadow:0 0 0 1px rgba(224,100,47,0.35), 0 8px 24px -8px rgba(224,100,47,0.55);
+  }
+
+  /* Hero del listado */
+  .blog-hero{position:relative; padding:88px 0 56px; overflow:hidden; border-bottom:1px solid var(--line-soft);}
+  .blog-hero::before{
+    content:""; position:absolute; top:-260px; left:50%; transform:translateX(-50%);
+    width:800px; height:800px; border-radius:50%;
+    background:radial-gradient(circle, rgba(201,149,74,0.14) 0%, rgba(181,69,27,0.08) 38%, transparent 70%);
+    pointer-events:none;
+  }
+  .blog-hero .wrap{position:relative; z-index:1;}
+  .eyebrow{
+    font-family:'Space Grotesk',sans-serif; font-weight:500; font-size:13px;
+    letter-spacing:2.5px; text-transform:uppercase; color:var(--gold-bright); margin-bottom:14px;
+  }
+  .blog-hero h1{font-size:42px; letter-spacing:-0.5px; margin-bottom:16px; max-width:600px;}
+  .blog-hero p.desc{color:var(--muted); font-size:16.5px; max-width:520px;}
+
+  /* Lista de artículos */
+  .posts{padding:56px 0 96px;}
+  .post-card{
+    display:flex; flex-wrap:wrap; gap:28px; align-items:center;
+    background:var(--navy-card); border:1px solid var(--line); border-radius:14px;
+    padding:20px; margin-bottom:24px; transition:transform .25s ease, border-color .25s ease, background .25s ease;
+  }
+  .post-card:hover{transform:translateY(-3px); border-color:var(--gold); background:var(--navy-card-hi);}
+  .post-thumb{
+    flex:0 0 260px; width:260px; max-width:100%; position:relative; padding-top:136.5px;
+    border-radius:10px; overflow:hidden;
+    background:linear-gradient(135deg, var(--navy), var(--navy-deep));
+  }
+  .post-thumb svg{position:absolute; top:50%; left:50%; width:60px; height:60px; margin:-30px 0 0 -30px; opacity:0.9;}
+  .post-body{flex:1 1 320px; min-width:0;}
+  .post-body .tag{
+    display:inline-block; font-size:11.5px; font-family:'Space Grotesk',sans-serif; color:var(--gold-bright);
+    border:1px solid var(--line); padding:4px 11px; border-radius:20px; margin-bottom:14px;
+  }
+  .post-body h2{font-size:22px; margin-bottom:10px;}
+  .post-body p{color:var(--muted); font-size:15px; margin-bottom:14px;}
+  .post-meta{font-family:'Space Grotesk',sans-serif; font-size:12.5px; color:var(--muted);}
+  .post-meta span{margin-right:6px;}
+
+  .empty-note{
+    max-width:680px; margin:0 auto; padding:40px 28px; text-align:center;
+    background:var(--navy-card); border:1px dashed var(--line); border-radius:14px; color:var(--muted); font-size:14.5px;
+  }
+
+  footer{padding:56px 0; border-top:1px solid var(--line-soft);}
+  footer .wrap{display:flex; flex-direction:column; align-items:center; gap:20px; text-align:center;}
+  footer .social{display:flex; gap:20px;}
+  footer .social a{font-family:'Space Grotesk',sans-serif; font-size:13px; color:var(--muted);}
+  footer .social a:hover{color:var(--gold-bright);}
+  .copyright{font-size:12.5px; color:var(--muted);}
+
+  @media (max-width: 720px){
+    .blog-hero{padding:56px 0 36px;}
+    .blog-hero h1{font-size:28px;}
+    .post-card{padding:16px;}
+    .post-thumb{flex-basis:100%; width:100%;}
+    .nav-links{display:none;}
+  }
+  @media (min-width: 1600px){
+    .wrap{max-width:1300px;}
+    .blog-hero h1{font-size:52px;}
+    .post-body h2{font-size:26px;}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a class="brand-mark" href="/">
+      <svg viewBox="0 0 200 200"><circle cx="100" cy="100" r="78" fill="none" stroke="#FDFAF7" stroke-width="10"/><rect x="87" y="48" width="26" height="104" fill="#C9954A"/><rect x="48" y="87" width="104" height="26" fill="#B5451B"/><circle cx="100" cy="100" r="13" fill="#0B1526"/></svg>
+      <span>E+N</span>
+    </a>
+    <div class="nav-links">
+      <a class="navlink" href="/">Inicio</a>
+      <a class="navlink active" href="/blog/">Blog</a>
+      <a class="btn" href="https://wa.me/50255509829" target="_blank" rel="noopener">Escríbenos</a>
+    </div>
+  </div>
+</header>
+
+<section class="blog-hero">
+  <div class="wrap">
+    <p class="eyebrow">Blog E+N</p>
+    <h1>Marketing y datos, explicados sin rodeos.</h1>
+    <p class="desc">Artículos sobre marketing y Business Intelligence para pymes en Guatemala &mdash;estrategia, datos y decisiones que se pueden medir.</p>
+  </div>
+</section>
+
+<section class="posts">
+  <div class="wrap">
+
+    <a class="post-card" href="/blog/marketing-y-datos-para-pymes-guatemala/">
+      <div class="post-thumb">
+        <svg viewBox="0 0 200 200"><circle cx="100" cy="100" r="78" fill="none" stroke="#E4B36C" stroke-width="9"/><rect x="87" y="48" width="26" height="104" fill="#C9954A"/><rect x="48" y="87" width="104" height="26" fill="#B5451B"/><circle cx="100" cy="100" r="13" fill="#0B1526"/></svg>
+      </div>
+      <div class="post-body">
+        <span class="tag">Marketing con datos</span>
+        <h2>Marketing sin datos, datos sin marketing: por qué las pymes guatemaltecas necesitan ambos</h2>
+        <p>Los dos errores que más le cuestan a una pyme &mdash;publicar a ciegas y tener datos que nadie usa&mdash; y cómo evitarlos sin necesitar un equipo grande.</p>
+        <p class="post-meta"><span>20 de agosto, 2026</span>·<span>6 min de lectura</span></p>
+      </div>
+    </a>
+
+    <!--
+      Próximo artículo (Semana 6-7): agregar aquí un nuevo bloque .post-card
+      con el mismo formato cuando "Business Intelligence para pymes en
+      Guatemala: guía práctica sin necesitar un equipo de datos" esté listo.
+    -->
+
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <a class="brand-mark" href="/">
+      <svg viewBox="0 0 200 200"><circle cx="100" cy="100" r="78" fill="none" stroke="#FDFAF7" stroke-width="10"/><rect x="87" y="48" width="26" height="104" fill="#C9954A"/><rect x="48" y="87" width="104" height="26" fill="#B5451B"/><circle cx="100" cy="100" r="13" fill="#0B1526"/></svg>
+      <span>E+N</span>
+    </a>
+    <div class="social">
+      <a href="https://www.instagram.com/enegt_26/" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://www.linkedin.com/company/ene-marketing-bi/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://www.facebook.com/enegt" target="_blank" rel="noopener">Facebook</a>
+      <a href="https://wa.me/50255509829" target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+    <div class="copyright">© 2026 E+N · Marketing + Business Intelligence · Guatemala</div>
+  </div>
+</footer>
+
+</body>
+</html>
