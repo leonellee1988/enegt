@@ -91,6 +91,9 @@
   .brand-mark{display:flex; align-items:center; gap:10px;}
   .brand-mark svg{height:30px; width:auto;}
   .brand-mark span{font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:19px; color:var(--cream); letter-spacing:0.5px;}
+  .nav-links{display:flex; align-items:center; gap:26px;}
+  .nav-links a.navlink{font-family:'Space Grotesk',sans-serif; font-weight:500; font-size:14.5px;color:var(--muted); white-space:nowrap; transition:color .2s ease;}
+  .nav-links a.navlink:hover{color:var(--gold-bright);}
   .btn{
     display:inline-flex; align-items:center; gap:8px;
     background:linear-gradient(135deg, var(--terra-bright), var(--terra));
@@ -241,6 +244,8 @@
     .brand-mark svg{height:26px;}
     .brand-mark span{font-size:17px;}
     .btn{padding:13px 22px; font-size:14.5px;}
+    .nav-links{gap:16px;}
+    .nav-links a.navlink{font-size:13px;}
     .hero{padding:64px 0 64px;}
     .hero svg.lockup{width:220px; margin-bottom:32px;}
     .hero h1{font-size:28px; margin-bottom:16px;}
@@ -278,7 +283,10 @@
       <svg viewBox="0 0 200 200"><circle cx="100" cy="100" r="78" fill="none" stroke="#FDFAF7" stroke-width="10"/><rect x="87" y="48" width="26" height="104" fill="#C9954A"/><rect x="48" y="87" width="104" height="26" fill="#B5451B"/><circle cx="100" cy="100" r="13" fill="#0B1526"/></svg>
       <span>E+N</span>
     </div>
-    <a class="btn" href="#contacto">Escríbenos</a>
+    <div class="nav-links">
+      <a class="navlink" href="/blog/">Blog</a>
+      <a class="btn" href="#contacto">Escríbenos</a>
+    </div>
   </div>
 </header>
 
