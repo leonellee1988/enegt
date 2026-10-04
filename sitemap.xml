@@ -7,8 +7,20 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://www.enegt.com/blog/</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.enegt.com/blog/marketing-y-datos-para-pymes-guatemala/</loc>
     <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.enegt.com/blog/business-intelligence-para-pymes-guatemala/</loc>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
