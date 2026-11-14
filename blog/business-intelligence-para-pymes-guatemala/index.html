@@ -18,7 +18,7 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,500;0,6..72,600;1,6..72,500&family=Figtree:wght@400;500;600;700&family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
 
 <script type="application/ld+json">
 {
@@ -65,12 +65,12 @@
   }
   *{box-sizing:border-box; margin:0; padding:0;}
   body{
-    font-family:'Inter',Arial,sans-serif;
+    font-family:'Figtree',Arial,sans-serif;
     background:var(--navy-deep);
     color:var(--cream);
     line-height:1.65;
   }
-  h1,h2,h3{font-family:'Space Grotesk',Arial,sans-serif; font-weight:700; color:var(--cream); line-height:1.2;}
+  h1,h2,h3{font-family:'Newsreader',Georgia,serif; font-weight:600; letter-spacing:-0.3px; color:var(--cream); line-height:1.2;}
   a{color:inherit;}
   .wrap{max-width:1100px; margin:0 auto; padding:0 32px;}
 
@@ -84,7 +84,7 @@
     display:inline-flex; align-items:center; gap:8px;
     background:linear-gradient(135deg, var(--terra-bright), var(--terra));
     color:var(--cream); text-decoration:none;
-    font-family:'Space Grotesk',sans-serif; font-weight:500; font-size:15px;
+    font-family:'Figtree',Arial,sans-serif; font-weight:500; font-size:15px;
     padding:12px 26px; border-radius:4px; border:none;
     box-shadow:0 0 0 1px rgba(224,100,47,0.35), 0 8px 24px -8px rgba(224,100,47,0.55);
   }
@@ -93,13 +93,13 @@
   .article-hero{padding:64px 0 40px; border-bottom:1px solid var(--line-soft);}
   .article-hero .content-col{max-width:720px; margin:0 auto; padding:0 24px; text-align:left;}
   .eyebrow{
-    font-family:'Space Grotesk',sans-serif; font-weight:500; font-size:13px;
+    font-family:'Figtree',Arial,sans-serif; font-weight:500; font-size:13px;
     letter-spacing:2.5px; text-transform:uppercase; color:var(--gold-bright); margin-bottom:18px;
     display:flex; align-items:center; gap:10px;
   }
   .eyebrow svg{width:20px; height:20px;}
   .article-hero h1{font-size:36px; letter-spacing:-0.5px; margin-bottom:20px;}
-  .meta-line{color:var(--muted); font-size:14px; font-family:'Space Grotesk',sans-serif;}
+  .meta-line{color:var(--muted); font-size:14px; font-family:'DM Mono',ui-monospace,monospace;}
   .meta-line span{margin-right:6px;}
 
   /* Article body */
@@ -116,7 +116,7 @@
   .pullquote{
     border-left:3px solid var(--gold); background:var(--navy-card);
     padding:24px 28px; margin:36px 0; border-radius:0 8px 8px 0;
-    font-family:'Space Grotesk',sans-serif; font-size:19px; font-style:italic; color:var(--gold-bright);
+    font-family:'Newsreader',Georgia,serif; font-size:19px; font-style:italic; color:var(--gold-bright);
   }
 
   /* Autor / firma personal */
@@ -131,7 +131,7 @@
   /* Diagrama de flujo: Datos -> Información -> Decisión */
   .flow-wrap{margin:44px 0;}
   .flow-diagram{width:100%; height:auto; display:block;}
-  .flow-caption{text-align:center; font-size:13px; color:var(--muted); margin-top:12px; font-family:'Space Grotesk',sans-serif; letter-spacing:0.3px;}
+  .flow-caption{text-align:center; font-size:13px; color:var(--muted); margin-top:12px; font-family:'Figtree',Arial,sans-serif; letter-spacing:0.3px;}
 
   /* Callout de cifra */
   .stat-callout{
@@ -140,7 +140,7 @@
     border:1px solid var(--line); border-radius:14px; padding:30px 32px;
   }
   .stat-callout .num{
-    font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:64px; line-height:1;
+    font-family:'DM Mono',ui-monospace,monospace; font-weight:500; font-size:64px; line-height:1;
     background:linear-gradient(135deg, var(--gold-bright), var(--terra-bright));
     -webkit-background-clip:text; background-clip:text; color:transparent;
     flex:0 0 auto; min-width:90px; text-align:center;
@@ -158,10 +158,10 @@
   .roadmap-step .step-num{
     width:32px; height:32px; border-radius:50%; border:2px solid var(--gold);
     display:flex; align-items:center; justify-content:center;
-    font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:14px; color:var(--gold-bright);
+    font-family:'DM Mono',ui-monospace,monospace; font-weight:500; font-size:14px; color:var(--gold-bright);
     margin-bottom:14px;
   }
-  .roadmap-step h4{font-family:'Space Grotesk',sans-serif; font-size:15px; color:var(--cream); margin-bottom:8px;}
+  .roadmap-step h4{font-family:'Newsreader',Georgia,serif; font-weight:600; font-size:15px; color:var(--cream); margin-bottom:8px;}
   .roadmap-step p{font-size:13.5px; color:var(--muted); margin:0; line-height:1.5;}
   .roadmap-connector{display:flex; align-items:center; padding-top:16px; flex:0 0 auto; color:var(--gold); font-size:18px;}
 
@@ -178,7 +178,7 @@
   .tool-card .tool-ico.sheets{background:linear-gradient(135deg, #34A853, #1E7E3A);}
   .tool-card .tool-ico.looker{background:linear-gradient(135deg, #4285F4, #2A5DB0);}
   .tool-card .tool-ico.powerbi{background:linear-gradient(135deg, var(--gold-bright), var(--terra-bright));}
-  .tool-card h4{font-family:'Space Grotesk',sans-serif; font-size:15px; margin-bottom:8px;}
+  .tool-card h4{font-family:'Newsreader',Georgia,serif; font-weight:600; font-size:15px; margin-bottom:8px;}
   .tool-card p{font-size:13px; color:var(--muted); margin:0; line-height:1.5;}
 
   .cta-box{
@@ -192,7 +192,7 @@
   footer{padding:56px 0; border-top:1px solid var(--line-soft); margin-top:64px;}
   footer .wrap{display:flex; flex-direction:column; align-items:center; gap:20px; text-align:center;}
   footer .social{display:flex; gap:20px;}
-  footer .social a{font-family:'Space Grotesk',sans-serif; font-size:13px; color:var(--muted); text-decoration:none;}
+  footer .social a{font-family:'Figtree',Arial,sans-serif; font-size:13px; color:var(--muted); text-decoration:none;}
   footer .social a:hover{color:var(--gold-bright);}
   .copyright{font-size:12.5px; color:var(--muted);}
 
@@ -266,8 +266,8 @@
       <svg class="flow-diagram" viewBox="0 0 680 160" xmlns="http://www.w3.org/2000/svg">
         <!-- Nodo 1: Datos -->
         <rect x="10" y="40" width="180" height="80" rx="12" fill="#1B2C4F" stroke="#233865" stroke-width="1.5"/>
-        <text x="100" y="72" text-anchor="middle" font-family="Space Grotesk, Arial, sans-serif" font-weight="700" font-size="17" fill="#FDFAF7">Datos</text>
-        <text x="100" y="94" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11.5" fill="#9AA5BF">Ventas, gastos, redes</text>
+        <text x="100" y="72" text-anchor="middle" font-family="Newsreader, Georgia, serif" font-weight="600" font-size="17" fill="#FDFAF7">Datos</text>
+        <text x="100" y="94" text-anchor="middle" font-family="Figtree, Arial, sans-serif" font-size="11.5" fill="#9AA5BF">Ventas, gastos, redes</text>
 
         <!-- Flecha 1 -->
         <line x1="192" y1="80" x2="240" y2="80" stroke="#C9954A" stroke-width="2.5"/>
@@ -279,8 +279,8 @@
         <rect x="342" y="43" width="8" height="24" fill="#C9954A"/>
         <rect x="334" y="51" width="24" height="8" fill="#B5451B"/>
         <circle cx="346" cy="55" r="4" fill="#1B2C4F"/>
-        <text x="346" y="98" text-anchor="middle" font-family="Space Grotesk, Arial, sans-serif" font-weight="700" font-size="17" fill="#FDFAF7">Información</text>
-        <text x="346" y="118" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11.5" fill="#9AA5BF">Ordenada y visible</text>
+        <text x="346" y="98" text-anchor="middle" font-family="Newsreader, Georgia, serif" font-weight="600" font-size="17" fill="#FDFAF7">Información</text>
+        <text x="346" y="118" text-anchor="middle" font-family="Figtree, Arial, sans-serif" font-size="11.5" fill="#9AA5BF">Ordenada y visible</text>
 
         <!-- Flecha 2 -->
         <line x1="438" y1="80" x2="486" y2="80" stroke="#C9954A" stroke-width="2.5"/>
@@ -288,8 +288,8 @@
 
         <!-- Nodo 3: Decisión -->
         <rect x="502" y="40" width="178" height="80" rx="12" fill="#1B2C4F" stroke="#E0642F" stroke-width="1.5"/>
-        <text x="591" y="72" text-anchor="middle" font-family="Space Grotesk, Arial, sans-serif" font-weight="700" font-size="17" fill="#FDFAF7">Decisión</text>
-        <text x="591" y="94" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11.5" fill="#9AA5BF">Con evidencia, no a ciegas</text>
+        <text x="591" y="72" text-anchor="middle" font-family="Newsreader, Georgia, serif" font-weight="600" font-size="17" fill="#FDFAF7">Decisión</text>
+        <text x="591" y="94" text-anchor="middle" font-family="Figtree, Arial, sans-serif" font-size="11.5" fill="#9AA5BF">Con evidencia, no a ciegas</text>
       </svg>
       <p class="flow-caption">El único trabajo real de BI: mover los datos de izquierda a derecha, sin saltarse el paso de en medio.</p>
     </div>
