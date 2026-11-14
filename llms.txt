@@ -22,6 +22,7 @@ Uso de inteligencia artificial: como herramienta de implementación; la estrateg
 
 - [Inicio](https://www.enegt.com/): servicios, equipo, preguntas frecuentes y contacto.
 - [Blog](https://www.enegt.com/blog/): artículos sobre marketing y Business Intelligence.
+- [¿La IA recomienda tu empresa? Guía de GEO](https://www.enegt.com/blog/geo-optimizacion-buscadores-ia/)
 - [Marketing sin datos, datos sin marketing](https://www.enegt.com/blog/marketing-y-datos-para-pymes-guatemala/)
 - [Business Intelligence para pymes en Guatemala](https://www.enegt.com/blog/business-intelligence-para-pymes-guatemala/)
 
