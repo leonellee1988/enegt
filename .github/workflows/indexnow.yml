@@ -1,0 +1,50 @@
+name: Avisar a Bing (IndexNow)
+
+# Cada vez que se publica un cambio en main, avisa a Bing y a los demás
+# buscadores que usan IndexNow qué páginas se crearon o cambiaron.
+on:
+  push:
+    branches: [main]
+    paths:
+      - '**.html'
+      - 'sitemap.xml'
+  workflow_dispatch:
+
+jobs:
+  indexnow:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Enviar páginas cambiadas a IndexNow
+        env:
+          KEY: b9d6f8dfe95fde02b4866e4d1e2eb569
+          HOST: www.enegt.com
+        run: |
+          # Esperar a que GitHub Pages publique los cambios antes de avisar
+          sleep 90
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            files=$(git ls-files '*.html')
+          else
+            before="${{ github.event.before }}"
+            if [ -z "$before" ] || [ "$before" = "0000000000000000000000000000000000000000" ]; then
+              files=$(git ls-files '*.html')
+            else
+              files=$(git diff --name-only "$before" HEAD -- '*.html')
+            fi
+          fi
+          urls=""
+          for f in $files; do
+            [ -f "$f" ] || continue
+            path="/${f%index.html}"
+            urls="$urls\"https://$HOST$path\","
+          done
+          [ -z "$urls" ] && { echo "No hay páginas HTML cambiadas."; exit 0; }
+          body="{\"host\":\"$HOST\",\"key\":\"$KEY\",\"keyLocation\":\"https://$HOST/$KEY.txt\",\"urlList\":[${urls%,}]}"
+          echo "$body"
+          code=$(curl -s -o /dev/null -w "%{http_code}" -X POST "https://api.indexnow.org/indexnow" \
+            -H "Content-Type: application/json; charset=utf-8" -d "$body")
+          echo "Respuesta de IndexNow: $code"
+          [ "$code" = "200" ] || [ "$code" = "202" ]
