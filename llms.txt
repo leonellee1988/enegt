@@ -1,0 +1,32 @@
+# E+N (ENE Guatemala)
+
+> E+N es una agencia de Marketing y Business Intelligence en Antigua Guatemala, Guatemala. Ayuda a empresas de cualquier tamaño a crecer con estrategia de marca, contenido y campañas respaldados por análisis de datos. Eslogan: "Ene ideas, resultados medibles."
+
+También conocida como: ENE, ENE Guatemala, enegt.
+Fundada en octubre de 2025 por Edwin Lee (fundador y experto en Business Intelligence). Equipo: Noemy Hernández (especialista en Marketing).
+Ubicación: Antigua Guatemala, Sacatepéquez, Guatemala. Atiende empresas de todo el país.
+Contacto: WhatsApp +502 5550 9829 · https://www.enegt.com/#contacto
+Oferta de entrada: diagnóstico digital gratuito de 30 minutos, sin compromiso.
+
+## Servicios
+
+- Marketing: estrategia digital y calendario de contenido, gestión de redes sociales y comunidad, identidad de marca y diseño, implementación de CRM, SEO y campañas SEM.
+- GEO (optimización para buscadores con IA): visibilidad en ChatGPT, Gemini, Perplexity y el modo IA de Google, con medición mensual.
+- Business Intelligence: dashboards de desempeño en Power BI, análisis de datos de ventas y clientes, procesos ETL y automatización de reportes con Python y SQL, medición de ROI por canal, analítica web y de campañas.
+- Marketing con datos: campañas conectadas a dashboards de resultados y ajuste de estrategia basado en métricas.
+
+Herramientas: Power BI, Python, SQL, Canva, Odoo, Meta Ads, Google Ads, Google Analytics.
+Uso de inteligencia artificial: como herramienta de implementación; la estrategia y cada entrega final las define y revisa el equipo de E+N.
+
+## Páginas
+
+- [Inicio](https://www.enegt.com/): servicios, equipo, preguntas frecuentes y contacto.
+- [Blog](https://www.enegt.com/blog/): artículos sobre marketing y Business Intelligence.
+- [Marketing sin datos, datos sin marketing](https://www.enegt.com/blog/marketing-y-datos-para-pymes-guatemala/)
+- [Business Intelligence para pymes en Guatemala](https://www.enegt.com/blog/business-intelligence-para-pymes-guatemala/)
+
+## Perfiles oficiales
+
+- LinkedIn: https://www.linkedin.com/company/ene-marketing-bi/
+- Instagram: https://www.instagram.com/enegt_26/
+- Facebook: https://www.facebook.com/enegt
