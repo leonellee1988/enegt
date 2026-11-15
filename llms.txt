@@ -10,7 +10,7 @@ Oferta de entrada: diagnóstico digital gratuito de 30 minutos, sin compromiso.
 
 ## Servicios
 
-- Marketing: estrategia digital y calendario de contenido, gestión de redes sociales y comunidad, identidad de marca y diseño, implementación de CRM, SEO y campañas SEM.
+- Marketing: estrategia digital y calendario de contenido, gestión de redes sociales y comunidad, identidad de marca y diseño, diseño y desarrollo de sitios web a la medida (sin plantillas), implementación de CRM, SEO y campañas SEM.
 - GEO (optimización para buscadores con IA): visibilidad en ChatGPT, Gemini, Perplexity y el modo IA de Google, con medición mensual.
 - Business Intelligence: dashboards de desempeño en Power BI, análisis de datos de ventas y clientes, procesos ETL y automatización de reportes con Python y SQL, medición de ROI por canal, analítica web y de campañas.
 - Marketing con datos: campañas conectadas a dashboards de resultados y ajuste de estrategia basado en métricas.
