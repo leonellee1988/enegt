@@ -10,12 +10,15 @@ Oferta de entrada: diagnóstico digital gratuito de 30 minutos, sin compromiso.
 
 ## Servicios
 
-- Marketing: estrategia digital y calendario de contenido, gestión de redes sociales y comunidad, identidad de marca y diseño, diseño y desarrollo de sitios web a la medida (sin plantillas), implementación de CRM, SEO y campañas SEM.
-- GEO (optimización para buscadores con IA): visibilidad en ChatGPT, Gemini, Perplexity y el modo IA de Google, con medición mensual.
-- Business Intelligence: dashboards de desempeño en Power BI, análisis de datos de ventas y clientes, procesos ETL y automatización de reportes con Python y SQL, medición de ROI por canal, analítica web y de campañas.
-- Marketing con datos: campañas conectadas a dashboards de resultados y ajuste de estrategia basado en métricas.
+Tres áreas de 5 servicios cada una:
 
-Herramientas: Power BI, Python, SQL, Canva, Odoo, Meta Ads, Google Ads, Google Analytics.
+- Marketing: Estrategia y gestión de redes sociales: calendario, contenido y comunidad; Identidad de marca y diseño; Sitios web a la medida, rápidos y sin plantillas; Posicionamiento en Google: SEO, SEM y perfil de negocio; GEO: visibilidad en ChatGPT, Gemini y Google con IA.
+- Business Intelligence: Dashboards de desempeño en Power BI para cada área; Asesoría en la selección e implementación de ERP o CRM; Reportes automáticos conectados a tus sistemas (ETL); Análisis de ventas, compras, inventario, producción y finanzas; Planeación de ventas y operaciones (S&OP).
+- Marketing con datos (diferenciador): Dashboard que conecta tu marketing con tus ventas; Analítica web para saber de dónde llegan tus clientes (Google Analytics 4); Indicadores de retorno: ROI, costo por cliente (CAC) y costo por lead (CPL); Sesiones de resultados con tu equipo, semanales o mensuales; Ajuste de la estrategia según los datos, no la intuición.
+
+GEO incluye medición mensual de la visibilidad en ChatGPT, Gemini, Perplexity, Copilot y el modo IA de Google.
+
+Herramientas: Power BI, Python, SQL, Canva, Odoo, Meta Ads, Google Ads, Google Analytics 4.
 Uso de inteligencia artificial: como herramienta de implementación; la estrategia y cada entrega final las define y revisa el equipo de E+N.
 
 ## Páginas
